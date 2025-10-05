@@ -1,0 +1,52 @@
+name: shop_it
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # intl for Currency Syntax
+  intl: ^0.20.2
+
+  # Provider package
+  provider: ^6.1.5+1
+
+  # Shared preferences for local storage
+  shared_preferences: ^2.5.3
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  flutter_lints: ^6.0.0
+
+  # flutter_launcher_icons: ^0.14.4
+
+# flutter Launcer Icons for changing the app icon 
+# flutter_launcher_icons:
+#   android: "launcher_icon"
+#   ios: true
+#   image_path: "assets/icon/icon.png"
+#   adaptive_icon_foreground: "assets/icon/icon.png"
+#   adaptive_icon_background: "#ffffff"
+#   min_sdk_android: 21 # android min sdk min:16, default 21
+#   remove_alpha_ios: true
+#   web:
+#     generate: true
+#     image_path: "assets/icon/icon.png"
+#     background_color: "#ffffff"
+#     theme_color: "#3F51B5"
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icon/
