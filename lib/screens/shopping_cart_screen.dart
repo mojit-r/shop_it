@@ -92,7 +92,12 @@ class ShoppingCartScreen extends StatelessWidget {
                                   symbol: '₹ ',
                                   decimalDigits: 0,
                                 ).format(total),
+                                style: TextStyle(
+                                  color:
+                                      Theme.of(context).colorScheme.onSurface,
+                                ),
                               ),
+
                               actions: [
                                 TextButton(
                                   onPressed: () => Navigator.pop(context),
@@ -109,7 +114,7 @@ class ShoppingCartScreen extends StatelessWidget {
                 cartItems.isEmpty
                     ? Colors.grey.shade400
                     : Theme.of(context).colorScheme.primary,
-            foregroundColor: cartItems.isEmpty ? Colors.black45 : Colors.white,
+            foregroundColor: cartItems.isEmpty ? Colors.black45 : null,
           ),
 
           // Cart Product Count Indicator
