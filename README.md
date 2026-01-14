@@ -54,13 +54,9 @@ lib/
 
 ## 📸 App Screenshots
 
-| Home Screen | Cart Screen |
-|------------|-------------|
-| ![Home Screen](assets/screenshots/add_product_screen.png) | ![Cart Screen](assets/screenshots/shopping_cart_screen.png) |
-
-| Light Mode | Dark Mode |
-|-----------|-----------|
-| ![Light Mode](assets/screenshots/light_mode.png) | ![Dark Mode](assets/screenshots/dark_mode.png) |
+| Home Screen | Cart Screen | Light Mode | Dark Mode |
+|-------------|----------------------|----------------------|-------------------------|
+| <img src="assets/screenshots/add_product_screen.png" height="500" alt="Home Screen"/> | <img src="assets/screenshots/shopping_cart_screen.png" height="500" alt="Cart Screen"/> | <img src="assets/screenshots/light_mode.png" height="500" alt="Light Mode"/> | <img src="assets/screenshots/dark_mode.png" height="500" alt="Dark Mode"/> |
 
 ---
 
