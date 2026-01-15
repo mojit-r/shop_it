@@ -45,7 +45,7 @@ lib/
 │ ├── add_product_screen.dart
 │ └── shopping_cart_screen.dart
 ├── theme/
-│ └── theme.dart
+└ └── theme.dart
 
 ```
 
@@ -56,7 +56,7 @@ lib/
 
 | Home Screen | Cart Screen | Dark Mode |
 |-------------|----------------------|-------------------------|
-| <img src="assets/screenshots/add_product_screen.png" height="500" alt="Home Screen"/> | <img src="assets/screenshots/shopping_cart_screen.png" height="500" alt="Cart Screen"/> | <img src="assets/screenshots/dark_mode.png" height="500" alt="Dark Mode"/> |
+| <img src="assets/screenshots/add_product_screen.png" height="520" alt="Home Screen"/> | <img src="assets/screenshots/shopping_cart_screen.png" height="520" alt="Cart Screen"/> | <img src="assets/screenshots/dark_mode.png" height="520" alt="Dark Mode"/> |
 
 ---
 
